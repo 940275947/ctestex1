@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10px"
+    android:background="#7F83CA"
+    tools:context=".RelativeLayoutActivity" >
+
+<TableLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:stretchColumns="0"
+    android:shrinkColumns="1">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text=" Open    "/>
+        <TextView android:text="  Ctrl-O"
+            android:gravity="right"/>
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text=" Save   "/>
+        <TextView android:text="  Ctrl-s"
+            android:gravity="right"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text=" Save as    "/>
+        <TextView android:text="  Ctrl-Shift-S"
+            android:gravity="right"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text=" ×important    "/>
+        <TextView android:text="  "
+            android:gravity="right"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text=" ×export    "/>
+        <TextView android:text="  Ctrl-E"
+            android:gravity="right"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView android:text=" Quit    "/>
+        <TextView android:text="  "
+            android:gravity="right"/>
+
+    </TableRow>
+
+</TableLayout>
+
+    </RelativeLayout>
